@@ -58,6 +58,12 @@ export default function Page() {
             >
               LinkedIn
             </a>
+            <a
+              href="#contact"
+              className="text-ink-body hover:text-emerald-primary"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -217,7 +223,7 @@ export default function Page() {
       </section>
 
       {/* CONTACT */}
-      <section className="bg-white">
+      <section id="contact" className="bg-white">
         <div className="mx-auto max-w-3xl px-6 py-20">
           <h2 className="text-3xl font-bold tracking-tight text-ink-black md:text-4xl">
             Get in Touch
@@ -227,6 +233,26 @@ export default function Page() {
             Guyana — reach out directly. I answer personally.
           </p>
           <ul className="mt-8 space-y-3 text-base text-ink-body">
+            <li>
+              <a
+                href="https://wa.me/5927059857?text=Hi%20Qumar%2C%20I%20found%20you%20on%20qumartorrington.com%20and%20I%27d%20like%20to%20discuss%20a%20property."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-emerald-primary px-6 py-3 text-base font-semibold text-white transition hover:bg-emerald-dark"
+              >
+                <span aria-hidden="true">💬</span>
+                WhatsApp Qumar
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:qumar@guyanahomehub.com"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-emerald-primary px-6 py-3 text-base font-semibold text-white transition hover:bg-emerald-dark"
+              >
+                <span aria-hidden="true">✉️</span>
+                Email Qumar
+              </a>
+            </li>
             <li>📍 Georgetown, Guyana</li>
             <li>
               🌐{" "}
