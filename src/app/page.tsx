@@ -121,7 +121,7 @@ export default function Page() {
           </h2>
           <div className="mt-8 space-y-6 text-base leading-relaxed text-ink-body">
             <p>
-              I grew up in Albouystown, Georgetown — and I made a decision
+              I grew up in North Ruimveldt, Georgetown — and I made a decision
               early that I was going to be a good product of my environment,
               not a casualty of it. My father, Daren Torrington, taught me that
               Guyana would grow, that opportunities would align for those who
