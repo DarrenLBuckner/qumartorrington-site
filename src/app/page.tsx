@@ -112,8 +112,13 @@ export default function Page() {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="flex aspect-square w-full items-center justify-center rounded-lg border border-line bg-emerald-light text-sm font-medium text-emerald-dark">
-              Photo coming soon
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-lg border border-line bg-emerald-light">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/qumar-torrington.jpg"
+                alt="Qumar Torrington"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -192,6 +197,34 @@ export default function Page() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* TODO: Replace YouTube handle and href once channel is live.
+          Button href="#" and "Coming Soon" label are placeholders.
+          Search for "YOUTUBE_PLACEHOLDER" to find all spots to update. */}
+      {/* YOUTUBE */}
+      <section className="bg-ink-black text-white">
+        <div className="mx-auto max-w-3xl px-6 py-16 text-center md:py-24">
+          <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+            Guyana Real Estate — On YouTube
+          </h2>
+          <p className="mt-6 text-base leading-relaxed text-gray-300 md:text-lg">
+            Real talk about buying, renting, and investing in Guyana. Property
+            tours, market updates, and honest insights from someone on the
+            ground.
+          </p>
+          <div className="mt-8">
+            <a
+              href="#" /* YOUTUBE_PLACEHOLDER */
+              className="inline-flex cursor-not-allowed items-center justify-center rounded-md bg-emerald-primary px-6 py-3 text-base font-semibold text-white opacity-60 transition hover:bg-emerald-dark"
+            >
+              Coming Soon
+            </a>
+          </div>
+          <p className="mt-4 text-sm text-gray-400">
+            YouTube channel coming soon{/* YOUTUBE_PLACEHOLDER */}
+          </p>
         </div>
       </section>
 
@@ -280,16 +313,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="border-t border-line bg-surface">
-        <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-2 px-6 py-6 text-xs text-ink-soft md:flex-row md:items-center">
-          <p>
-            © 2026 Qumar Torrington. Site built and hosted by Caribbean HomeHub
-            LLC.
-          </p>
-          <p>guyanahomehub.com | portalhomehub.com</p>
-        </div>
-      </footer>
     </main>
   );
 }

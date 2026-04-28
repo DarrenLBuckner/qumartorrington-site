@@ -113,7 +113,62 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        <footer className="border-t border-line bg-surface">
+          <div className="mx-auto max-w-6xl px-6 py-8">
+            <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium">
+              <a
+                href="/"
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                About
+              </a>
+              <a
+                href="https://www.guyanahomehub.com/agents/qumar-torrington"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                Listings
+              </a>
+              <a
+                href="#" /* YOUTUBE_PLACEHOLDER */
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                YouTube
+              </a>
+              <a
+                href="https://www.linkedin.com/in/qumartorrington"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="/#contact"
+                className="text-ink-soft transition hover:text-emerald-primary"
+              >
+                Contact
+              </a>
+            </nav>
+            <div className="mt-6 flex flex-col items-center justify-between gap-2 text-xs text-ink-soft md:flex-row">
+              <p>
+                © 2026 Qumar Torrington. Site built and hosted by Caribbean
+                HomeHub LLC.
+              </p>
+              <p>guyanahomehub.com | portalhomehub.com</p>
+            </div>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }
