@@ -43,6 +43,12 @@ export default function Page() {
           </span>
           <div className="flex items-center gap-6 text-sm font-medium">
             <a
+              href="/about"
+              className="text-ink-body hover:text-emerald-primary"
+            >
+              About
+            </a>
+            <a
               href="https://www.guyanahomehub.com/agents/qumar-torrington"
               target="_blank"
               rel="noopener noreferrer"
