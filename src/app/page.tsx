@@ -73,24 +73,30 @@ export default function Page() {
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
           <div className="order-2 md:order-1">
             <p className="text-xs font-semibold uppercase tracking-widest text-emerald-primary">
-              Guyana Operations Partner · Guyana HomeHub
+              Licensed Real Estate Professional · Georgetown, Guyana
             </p>
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-ink-black md:text-5xl lg:text-6xl">
               Qumar Torrington
             </h1>
             <p className="mt-4 text-lg text-ink-soft">
-              Licensed Real Estate Professional. Founder, Beyond the Boundary
-              Real Estate &amp; Construction. Georgetown, Guyana.
+              Founder, Beyond the Boundary Real Estate &amp; Construction.
+              Licensed agent. Disciplined. Results-driven.
             </p>
             <p className="mt-6 text-base leading-relaxed text-ink-body">
               Qumar Torrington is a licensed real estate professional based in
-              Georgetown, Guyana, and the Guyana Operations Partner for Guyana
-              HomeHub — the real estate search platform built by US entrepreneur
-              Darren L. Buckner to serve diaspora buyers across the Caribbean,
-              Latin America, and beyond. Guyana HomeHub is the first
-              structured, verified property marketplace in Guyana, built to
-              connect buyers in New York, Toronto, and London with real
-              listings and trusted agents on the ground.
+              Georgetown, Guyana, and the founder of Beyond the Boundary Real
+              Estate &amp; Construction. With a GRA Real Estate licence
+              obtained in 2025, he specialises in residential properties,
+              rentals, and land across Region 4 — serving local buyers,
+              returning diaspora, and anyone serious about owning property in
+              Guyana.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-ink-body">
+              He serves as Guyana Operations Partner for Guyana HomeHub — the
+              first verified, structured property marketplace in Guyana, built
+              by US entrepreneur Darren L. Buckner to connect diaspora buyers
+              in New York, Toronto, and London with real listings and trusted
+              agents on the ground.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-6">
               <a
