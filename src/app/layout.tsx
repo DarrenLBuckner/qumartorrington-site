@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_URL),
   title: TITLE,
   description: DESCRIPTION,
+  authors: [{ name: "Darren L. Buckner", url: "https://darrenlbuckner.com" }],
   alternates: {
     canonical: CANONICAL_URL,
   },
