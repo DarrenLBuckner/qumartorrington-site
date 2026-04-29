@@ -156,7 +156,7 @@ export default function Page() {
             <p>
               Before real estate, cricket was my career. I represented Guyana
               and the West Indies at youth level — trained at Demerara Cricket
-              Club under Dennis Squires, competed with Melbourne Cricket Club
+              Club, competed with Melbourne Cricket Club
               in Queens, New York, and played in the USPL in Miami with the
               Maryland Mavericks. I stepped back from professional play at 23
               due to injury. Cricket gave me discipline, team mentality, and

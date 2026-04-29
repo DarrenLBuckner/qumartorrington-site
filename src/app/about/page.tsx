@@ -34,7 +34,7 @@ const externalProps = {
   rel: "noopener noreferrer",
 } as const;
 
-const timeline = [
+const timeline: { date: string; title: string; detail?: string }[] = [
   {
     date: "Origins",
     title: "Born — North Ruimveldt, Georgetown",
@@ -42,7 +42,6 @@ const timeline = [
   {
     date: "Cricket",
     title: "Demerara Cricket Club",
-    detail: "Trained under Dennis Squires",
   },
   {
     date: "Youth International",
@@ -118,7 +117,7 @@ export default function AboutPage() {
             <p>
               Before real estate, cricket was my career. I represented Guyana
               and the West Indies at youth level — trained at Demerara Cricket
-              Club under Dennis Squires, competed with Melbourne Cricket Club
+              Club, competed with Melbourne Cricket Club
               in Queens, New York, and played in the USPL in Miami with the
               Maryland Mavericks. I stepped back from professional play at 23
               due to injury. Cricket gave me discipline, team mentality, and
@@ -126,12 +125,15 @@ export default function AboutPage() {
               into every transaction.
             </p>
             <p>
-              I founded Beyond the Boundary Real Estate &amp; Construction in
-              2021 and obtained my GRA Real Estate (House Agent) Licence in
-              2025 — making me one of the few fully licensed agents operating
-              in a market where the majority are not. I specialize in
-              residential properties, rentals, and land across Region 4, with a
-              focus on buyers who are serious and ready to move.
+              A fellow Demerara Cricket Club member, Dennis Squires, was
+              already working in real estate at the time and became an early
+              mentor who helped guide me into the industry. I founded Beyond
+              the Boundary Real Estate &amp; Construction in 2021 and obtained
+              my GRA Real Estate (House Agent) Licence in 2025 — making me one
+              of the few fully licensed agents operating in a market where the
+              majority are not. I specialize in residential properties,
+              rentals, and land across Region 4, with a focus on buyers who
+              are serious and ready to move.
             </p>
             <p>
               In January 2026, I became the Guyana Operations Partner for
